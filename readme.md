@@ -3,7 +3,9 @@
 This program is console based. 
 Simple home budget app to CRUD incomes & expenses and generate reports using Java Collections, LocalDateTime & MVC pattern.
 
-- data is shown in console in lists, which are divided into pages of 10 elements (if necessary),
+- data is shown in console in lists, 
+- large lists (>10 elements) are divided into pages for convenience via UserInterface.java,
+- user interaction via Scanner,
 - two users:  
     Mum & Dad,
 - seven categories:  
