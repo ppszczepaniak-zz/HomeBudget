@@ -1,12 +1,27 @@
-## CinemaSystem
+## HomeBudget  
 
-This program is console based.  
-Data (cinemas, movies, repertoir) stored in lists, pre-loaded via dataCreator package.
+This program is console based. 
+Simple home budget app to CRUD incomes & expenses and generate reports using Java Collections, LocalDateTime & MVC pattern.
 
-Options available in system (console-based interface via main menu):
-- choosing cinema, movie, date, room, seat, price (normal or discount),
-- drawing cinema room with seats in rows (seats are marked as free, reserved or taken),
-- adding, removing and paying for reservation,
-- generating yearly reports for cinemas.
+- two users:  
+    Mum & Dad,
+- seven categories:  
+    food, car, bills, personal, repairs, clothes & pleasure
+- four income sources:    
+    b2b, contract, commision, other
+- pre-loaded data via dataCreator package.
+***
+
+Reports options available in system (console-based interface via main menu):  
+  1. Show all incomes
+   2. Show all expenses
+   2. Generate Report: Expenses per month for each category
+   2. Generate Report: Expenses per person
+   2. Generate Report: Incomes per month
+   2. Generate Report: Savings per month
+
+
+
+
 
 
