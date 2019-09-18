@@ -1,0 +1,18 @@
+package view.enums;
+
+public enum UserActions {
+    ADD_EXPENSE,
+    ADD_INCOME,
+    MODIFY_EXPENSE,
+    MODIFY_INCOME,
+    GENERATE_REPORT,
+    QUIT,
+    CHANGE_ELEMENT, //element = income or expense
+    REMOVE_ELEMENT,
+    SHOW_ALL_INCOMES,
+    SHOW_ALL_EXPENSES,
+    REPORT_EXPENSE_PER_CATEGORY,
+    REPORT_EXPENSE_PER_PERSON,
+    REPORT_INCOME_PER_MONTH,
+    REPORT_SAVINGS_PER_MONTH
+}
