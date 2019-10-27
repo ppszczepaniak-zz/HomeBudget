@@ -3,6 +3,8 @@
 This program is console based. 
 Simple home budget app to CRUD incomes & expenses and generate reports using Java Collections, LocalDateTime & MVC pattern.
 
+#Main Features:
+- console-based UI with Main Menu,
 - data is shown in console in lists, 
 - large lists (>10 elements) are divided into pages for convenience via UserInterface.java,
 - user interaction via Scanner,
@@ -15,7 +17,7 @@ Simple home budget app to CRUD incomes & expenses and generate reports using Jav
 - pre-loaded data via dataCreator package.
 ***
 
-Reports options available in system (console-based interface via main menu):  
+Reports options available in system (:  
   1. Show all incomes
    2. Show all expenses
    2. Generate Report: Expenses per month for each category
